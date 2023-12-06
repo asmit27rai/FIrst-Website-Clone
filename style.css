@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.Nav{
+    padding: 28px;
+    background-color: rgb(86, 58, 164);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#Navb{
+    width: 100%;
+    text-align: center;
+}
+.Products{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#items{
+    width: 100%;
+    text-align: center;
+    border: 2px;
+}
+.ProItem{
+    height: 200px;
+}
+.PIT{
+    font-size: 14px;
+}
+.PIT:hover{
+    color: #806BDC;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: dodgerblue;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding-left: 10px;
+  }
+  .Sales-table{
+    width: 90vw;
+    margin: auto;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 12px;
+}
+
+.Sales-table-head{
+    background-color: #806BDC;
+}
+.Contacts{
+    margin: auto;
+    padding: 15px;
+    
+}
+.Information{
+    width: 92vw;
+    margin: 20px;
+    font-size: 11px;
+    color: #878787;
+    list-style-position: inside;
+}
